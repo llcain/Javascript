@@ -98,8 +98,39 @@ document.getElementById("demo6").innerHTML = myFuncion(4, 5);
 
 let hello = "";
 
+// regular function
 hello = function() {
     return "Hello World!!";
 }
 
 document.getElementById("demo7").innerHTML = hello();
+
+let bye = '';
+// arrow function
+bye = () => "Good bye";
+
+document.getElementById("demo8").innerHTML = bye();
+
+// Arrow funtion with a parameter
+
+let good = "";
+
+good = (val) => "Good " + val;
+
+document.getElementById("demo9").innerHTML = good("Universal!!");
+
+// ES6 - Classes
+
+class Car {
+    constructor(name, year) {
+        this.name = name;
+        this.year = year;
+    }
+}
+
+const myCar1 = new Car("Ford", 2014);
+const myCar2 = new Car("Toyota", 2023);
+const myCar3 = new Car("Nissan", 2017);
+document.getElementById("demo10").innerHTML = myCar1.name + " " + myCar1.year;
+document.getElementById("demo11").innerHTML = myCar2.name + " " + myCar2.year;
+document.getElementById("demo12").innerHTML = myCar3.name + " " + myCar3.year;
