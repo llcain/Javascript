@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- import photo1 from './images/photo1.jpg'; -->
+    <script src="https://unpkg.com/react@18/umd/react.development.js" crossorigin></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js" crossorigin></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
     <title>Javascript</title>
 </head>
 <body>
@@ -51,8 +55,18 @@
     <p id="demo11"></p>
     <p id="demo12"></p>
 
+    <div id="mydiv"></div>
+    <img className="profile-photo" src="./images/photo1.jpg" width="300px" height="300px" alt="Sun and Clouds"/>
+
 
     
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script type="text/babel">
+        function Hello() {
+            return <h1>Movies!</h1>;
+        }
+        
+        ReactDOM.render(<Hello />, document.getElementById('mydiv'))
+    </script>
 </body>
 </html>

@@ -8,6 +8,8 @@
 
 // document.getElementById("demo").innerHTML = text;
 
+
+
 let text = '';
 
 for (let i = 0; i < 5; i++) {
@@ -128,6 +130,7 @@ class Car {
     }
 }
 
+// using the Car class to make 2 car objects
 const myCar1 = new Car("Ford", 2014);
 const myCar2 = new Car("Toyota", 2023);
 const myCar3 = new Car("Nissan", 2017);
