@@ -53,3 +53,53 @@ console.log(a) // Expected output: 20
 
 const pi = 3.14;
 document.getElementById("demo3").innerHTML = pi;
+
+// Block scope
+
+{
+    let x = 2;
+}
+// x can NOT be used here
+
+
+
+// variables declared with the var keyword can NOT have block scope
+{
+    var y = 27;
+}
+// x CAN be used here
+
+// Local Scope 
+
+// code here can NOT use carName
+
+function myFunction() {
+    let carName = "Volvo";
+    // code here CAN use carName
+}
+  
+  // code here can NOT use carName
+
+  // carName is undefined outside myFuncion()
+  myFunction();
+
+function myFunction() {
+  let carName = "Volvo";
+  document.getElementById("demo4").innerHTML = typeof carName + " " + carName;
+}
+
+document.getElementById("demo5").innerHTML = typeof carName;
+
+// Arrow Function
+
+let myFuncion = (a, b) => a * b;
+document.getElementById("demo6").innerHTML = myFuncion(4, 5);
+
+
+let hello = "";
+
+hello = function() {
+    return "Hello World!!";
+}
+
+document.getElementById("demo7").innerHTML = hello();
