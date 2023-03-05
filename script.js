@@ -37,4 +37,19 @@ var favoriteThing;
 
 favoriteThing = "Mandalorian!!";
 
-document.getElementById("demo1").innerHTML = favoriteThing;
+document.getElementById("demo2").innerHTML = favoriteThing;
+
+
+
+var a = 20;
+{
+  let exe = 30;
+  console.log(exe); // Expected output: 30
+}
+console.log(a) // Expected output: 20
+// console.log(exe); // Uncaught ReferenceError: exe is not defined
+
+// declaring variables using the keyword const
+
+const pi = 3.14;
+document.getElementById("demo3").innerHTML = pi;
