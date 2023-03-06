@@ -137,3 +137,16 @@ const myCar3 = new Car("Nissan", 2017);
 document.getElementById("demo10").innerHTML = myCar1.name + " " + myCar1.year;
 document.getElementById("demo11").innerHTML = myCar2.name + " " + myCar2.year;
 document.getElementById("demo12").innerHTML = myCar3.name + " " + myCar3.year;
+
+// Javascript Objects
+
+// Create an object:
+const person = {
+    firstName: "LaQuisha",
+    lastName: "Cain",
+    age: 44,
+    eyeColor: "brown"
+};
+
+// Display some data from the object
+document.getElementById("demo13").innerHTML = person.firstName + " is " + person.age + " years old.";
