@@ -154,4 +154,6 @@ const person = {
 
 // Display some data from the object
 document.getElementById("demo13").innerHTML = person.firstName + " is " + person.age + " years old.";
+
+// Displays data from the object:
 document.getElementById("demo14").innerHTML = person.fullName();
