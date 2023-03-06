@@ -142,11 +142,16 @@ document.getElementById("demo12").innerHTML = myCar3.name + " " + myCar3.year;
 
 // Create an object:
 const person = {
-    firstName: "LaQuisha",
-    lastName: "Cain",
+    firstName: "Billy",
+    lastName: "Bob",
     age: 44,
-    eyeColor: "brown"
+    eyeColor: "brown",
+    id       : 5566,
+  fullName : function() {
+    return this.firstName + " " + this.lastName;
+  }
 };
 
 // Display some data from the object
 document.getElementById("demo13").innerHTML = person.firstName + " is " + person.age + " years old.";
+document.getElementById("demo14").innerHTML = person.fullName();
