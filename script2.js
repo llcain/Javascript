@@ -1,6 +1,11 @@
-// cannot redeclare a variable define with let keyword
+// constant arrays
 
-var name = "bob";
-var name = "timmy";
+const cars = ["Saab", "Volvo", "BMW"];
 
-console.log(name);
+document.getElementById("demo").innerHTML = cars;
+
+// changing an element
+
+cars[2] = "Camry";
+
+document.getElementById("demo").innerHTML = cars;
