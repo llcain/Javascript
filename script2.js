@@ -51,10 +51,28 @@ console.log(x);
 // JavaScript Functions
 
 
-
+// example calls a function to return the product of a and b
 function myNumber(a, b) {
     return a * b;
 }
 
 
-document.getElementById("demo").innerHTML = myNumber(4, 6);
+document.getElementById("demo").innerHTML = myNumber(1, 9);
+
+myCar();
+function myCar() {
+    var carBell = "Volvo";
+    document.getElementById("demo1").innerHTML = typeof carBell + " " + carBell;
+}
+
+
+
+document.getElementById("demo2").innerHTML = typeof carBell;
+
+// convert fehrenheit to celsius
+
+function toCelcius(fahrenheit) {
+     return (fahrenheit - 32) * (5/9);
+}
+
+document.getElementById("demo3").innerHTML = toCelcius(77);
