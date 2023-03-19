@@ -29,3 +29,32 @@ car.color = "red";
 car.owner = "John";
 
 console.log(car);
+
+// Javascript Assinment Operators
+
+let y = 10;
+y %= 4;
+
+document.getElementById("demo").innerHTML = y;
+ 
+let x;
+ x = 5;
+x = "hope";
+
+document.getElementById("demo").innerHTML = x;
+
+x = 5;
+x = 4;
+
+console.log(x);
+
+// JavaScript Functions
+
+
+
+function myNumber(a, b) {
+    return a * b;
+}
+
+
+document.getElementById("demo").innerHTML = myNumber(4, 6);
