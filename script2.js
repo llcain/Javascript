@@ -76,3 +76,10 @@ function toCelcius(fahrenheit) {
 }
 
 document.getElementById("demo3").innerHTML = toCelcius(77);
+
+const numbers = [1, 7, 10, 7];
+let maxValue = Math.max(...numbers);
+numbers.push(63);
+
+document.getElementById("demo4").innerHTML = maxValue;
+document.getElementById("demo4").innerHTML = numbers;
