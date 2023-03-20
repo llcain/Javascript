@@ -77,9 +77,34 @@ function toCelcius(fahrenheit) {
 
 document.getElementById("demo3").innerHTML = toCelcius(77);
 
+
+// Spread Operator
 const numbers = [1, 7, 10, 7];
 let maxValue = Math.max(...numbers);
 numbers.push(63);
 
 document.getElementById("demo4").innerHTML = maxValue;
 document.getElementById("demo4").innerHTML = numbers;
+
+// The For/Of Loop
+
+const words = ['was', 'chick', 'boots', 'goats', 'birds'];
+let text = "";
+
+for (let x of words) {
+    text += x + "<br>";
+}
+
+document.getElementById("demo5").innerHTML = text;
+
+// Looping through string
+
+let language = "JavaScript";
+
+let text1 = "";
+
+for ( let x of language) {
+    text1 += x + "<br>"
+}
+
+document.getElementById("demo6").innerHTML = text1;
