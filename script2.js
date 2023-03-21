@@ -108,3 +108,17 @@ for ( let x of language) {
 }
 
 document.getElementById("demo6").innerHTML = text1;
+
+// JavaScript Classes
+
+class Car {
+    constructor(name, year) {
+        this.name = name;
+        this.year = year;
+    }
+}
+
+const myCar1 = new Car("ford", 2014);
+const myCar2 = new Car("nissan", 2000);
+
+document.getElementById("demo7").innerHTML = myCar1.name + " " + myCar2.name;
