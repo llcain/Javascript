@@ -122,3 +122,27 @@ const myCar1 = new Car("ford", 2014);
 const myCar2 = new Car("nissan", 2000);
 
 document.getElementById("demo7").innerHTML = myCar1.name + " " + myCar2.name;
+
+
+// Sorting an array
+
+let arr = [0,8,7,1,1,10];
+
+let temp = 0;
+
+for (let i = 0; i < arr.length - 1; i++) {
+    for (let j = 0; j < arr.length; j++) {
+        if (arr[j+1] < arr[j]) {
+            temp = arr[j]
+            arr[j] = arr[j+1]
+            arr[j+1] = temp
+        }
+        
+    }
+   
+    
+}
+console.log(arr);
+document.getElementById("demo8").innerHTML = arr;
+
+
