@@ -1,0 +1,2 @@
+Google - javascript map array to html - https://codepen.io/cferdinandi/pen/gEMJQm - https://gomakethings.com/using-array.map-to-create-markup-from-an-array-with-vanilla-js/
+Google - map function in javascript es6 array unordered list
