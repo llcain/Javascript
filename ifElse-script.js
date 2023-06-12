@@ -14,3 +14,9 @@ else if (hour >= 12 && hour <= 18) {
 else {
     console.log("Good evening!");
 }
+
+console.log(isLandscape(400, 600));
+
+function isLandscape(width, height) {
+    return (width > height);
+}
