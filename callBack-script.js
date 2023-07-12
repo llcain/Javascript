@@ -1,10 +1,10 @@
 // JavaScript - grab the button class and stick in a variable
 
-const btn = document.querySelector('.btn');
+const button = document.querySelector('button');
 
 // add evemtlistener
 
-btn.addEventListener('click', () => {
+button.addEventListener('click', () => {
     let name = "Jon Doe";
-    console.log(name.toUpperCase);
-})
+    console.log(name.toUpperCase());
+});
