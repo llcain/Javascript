@@ -7,6 +7,6 @@ let button = document.querySelector('button');
 button.addEventListener('click', () => {
     let div = document.querySelector('#app');
 
-    div.innerText = input.value;
+    div.innerHTML = input.value;
     input.value = "";
 })
