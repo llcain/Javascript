@@ -1,3 +1,3 @@
 changeColor = () => {
-    gfg.style.color = "green";
+    gfg.style.color = "#dd226c";
 }
